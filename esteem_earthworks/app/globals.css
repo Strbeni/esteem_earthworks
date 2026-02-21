@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-yellow: #fbff4b;
+  --color-brand-black: #000000;
+  --color-brand-white: #ffffff;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+/* Custom font for subtext if needed */
+.font-mono-custom {
+  font-family: 'Courier New', Courier, monospace;
+}
