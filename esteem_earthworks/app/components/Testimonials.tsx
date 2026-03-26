@@ -20,7 +20,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-32 px-6 bg-brand-primary text-white relative overflow-hidden">
+    <section className="relative z-20 py-32 px-6 bg-brand-primary text-white overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-20">
           <span className="text-[10px] font-black tracking-[0.3em] uppercase text-brand-accent mb-4 block">Kind Words</span>

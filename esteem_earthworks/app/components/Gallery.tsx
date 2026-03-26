@@ -19,7 +19,7 @@ const images = [
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="py-32 px-10 bg-white">
+    <section id="gallery" className="relative z-20 py-32 px-10 bg-white">
       <div className="max-w-[1400px] mx-auto">
         <h2 className="text-5xl font-bold tracking-tight text-brand-black mb-20 text-left">Gallery</h2>
         

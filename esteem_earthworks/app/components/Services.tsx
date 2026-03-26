@@ -1,44 +1,75 @@
-const services = [
-  {
-    image: "https://static.wixstatic.com/media/d69f20184cf54a40a9632c4d33ceb2bb.jpg",
-    title: "New Builds",
-    description: "From concept to completion, we specialize in crafting new structures that reflect your unique vision and requirements, ensuring quality and attention to detail at every step."
-  },
-  {
-    image: "https://static.wixstatic.com/media/11062b_01db33b21351425693312b6d98011544~mv2.jpg",
-    title: "Expansions",
-    description: "Need to expand your current space? Our expansion services are tailored to seamlessly integrate new additions into existing structures, maintaining the integrity of your property."
-  },
-  {
-    image: "https://static.wixstatic.com/media/11062b_89e3c683421247d38633125f14bc0210~mv2.jpg",
-    title: "Commercial Constructions",
-    description: "For commercial projects, we offer expertise in designing and constructing functional and appealing spaces that meet the specific needs of your business."
-  }
+import { Settings } from 'lucide-react';
+
+const serviceList = [
+  "BULK EARTHWORKS",
+  "RETENTION PACKAGES",
+  "SITE CUTS",
+  "COMPACTION",
+  "CARTAGE",
+  "PILING",
+  "SITE LEVELING",
+  "DEMOLITION"
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="py-32 px-10 bg-white">
-      <div className="max-w-[1400px] mx-auto">
-        <h2 className="text-5xl font-bold tracking-tight text-brand-black mb-20 text-left">Services</h2>
+    <section id="services" className="relative z-20 py-24 px-8 md:px-20 bg-[#f9f9f9]">
+      <div className="max-w-[1400px] mx-auto grid lg:grid-cols-12 gap-16 items-start">
         
-        <div className="grid md:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <div key={index} className="space-y-6">
-              <div className="aspect-square overflow-hidden">
-                <img 
-                  src={service.image} 
-                  alt={service.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
+        {/* Content Side - Precise Di Martino aesthetic */}
+        <div className="lg:col-span-5 space-y-12">
+          <div className="space-y-6">
+            <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-brand-black leading-tight uppercase">
+              Tailored solutions <br />
+              for <span className="relative inline-block text-brand-orange">
+                every project.
+                <div className="absolute -bottom-1 left-0 w-[50%] h-1.5 bg-brand-orange rounded-full"></div>
+              </span>
+            </h2>
+            <p className="text-zinc-500 font-inter text-sm md:text-base max-w-lg leading-relaxed pt-2">
+              We provide all-in-one earthworks solutions that give you peace of mind 
+              on site. Our capabilities include specialized services such as:
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-12">
+            {serviceList.map((service, index) => (
+              <div key={index} className="flex items-center gap-4 group">
+                <Settings className="w-5 h-5 text-brand-orange group-hover:rotate-90 transition-transform duration-500" strokeWidth={3} />
+                <span className="font-inter text-[13px] font-bold text-zinc-800 tracking-widest uppercase">
+                  {service}
+                </span>
               </div>
-              <h3 className="text-sm font-bold uppercase tracking-widest text-brand-black">{service.title}</h3>
-              <p className="text-[14px] leading-relaxed text-zinc-600">
-                {service.description}
-              </p>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          <div className="pt-8">
+            <a 
+              href="#contact" 
+              className="inline-block bg-brand-orange text-white px-10 py-5 text-[14px] font-black uppercase tracking-widest hover:bg-brand-black transition-all shadow-lg"
+            >
+              See our full range of services
+            </a>
+          </div>
         </div>
+
+        {/* Visual Side - High Impact 50/50 */}
+        <div className="lg:col-span-7 h-[65vh] lg:h-[80vh] relative">
+          <div className="w-full h-full overflow-hidden shadow-2xl">
+            <img 
+              src="https://www.topconpositioning.com/content/dam/topconpositioning/industry-application/heros/Earthmoving_HeroImage_web_hero.jpg" 
+              alt="Excavator at work" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+          
+          {/* Technical Corner Element */}
+          <div className="absolute top-0 left-0 bg-brand-black text-white px-8 py-6 hidden xl:block">
+            <div className="font-mono-custom text-[10px] uppercase tracking-[0.3em] opacity-50 mb-1">Standardized</div>
+            <div className="font-mono-custom text-[16px] font-bold">ISO 9001:2015</div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

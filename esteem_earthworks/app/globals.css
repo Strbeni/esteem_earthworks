@@ -4,6 +4,10 @@
   --color-brand-yellow: #fbff4b;
   --color-brand-black: #000000;
   --color-brand-white: #ffffff;
+  --color-brand-orange: #ff5c28;
+  
+  --font-inter: "Inter", sans-serif;
+  --font-mono-custom: "Courier New", Courier, monospace;
 }
 
 :root {
@@ -21,10 +25,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom font for subtext if needed */
 .font-mono-custom {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono-custom);
 }
