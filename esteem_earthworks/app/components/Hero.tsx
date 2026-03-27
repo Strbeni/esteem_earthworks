@@ -25,6 +25,11 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      {/* Decorative Branding Mark */}
+      <div className="absolute top-10 right-10 hidden lg:block opacity-20 hover:opacity-50 transition-opacity">
+        <img src="/esteem_Earthworks.png" alt="Branding Mark" className="w-24 h-auto grayscale brightness-200" />
+      </div>
     </section>
   );
 }

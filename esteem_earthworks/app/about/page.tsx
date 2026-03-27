@@ -67,6 +67,9 @@ export default function AboutPage() {
       <section className="py-24 px-6 md:px-20 bg-zinc-50 border-y border-zinc-200">
         <div className="max-w-[1400px] mx-auto flex flex-col items-center">
           <div className="bg-white p-10 md:p-20 shadow-2xl border-l-[12px] border-brand-orange relative overflow-hidden w-full lg:w-4/5">
+            <div className="absolute top-8 right-8 w-20 h-20 opacity-10">
+              <img src="/esteem_earthworks (1).jpeg" alt="Company Seal" className="w-full h-full object-contain grayscale" />
+            </div>
             <div className="absolute -top-12 -right-12 w-48 h-48 bg-brand-orange/5 rounded-full"></div>
             <h2 className="text-4xl md:text-6xl font-black text-brand-black uppercase mb-8 leading-none tracking-tight">Expertise and <br/><span className="text-brand-orange">Capabilities</span></h2>
             <p className="text-zinc-600 leading-relaxed text-base md:text-lg mb-10 max-w-2xl font-inter">

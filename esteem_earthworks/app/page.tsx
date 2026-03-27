@@ -1,17 +1,23 @@
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
-import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
+import Innovation from './components/Innovation';
+import Features from './components/Features';
+import CaseStudies from './components/CaseStudies';
+import CallToAction from './components/CallToAction';
 
 export default function Home() {
   return (
-    <main className="bg-slate-50 text-slate-900 font-sans">
+    <main className="bg-[#fefefe] text-brand-black font-inter overflow-x-hidden">
       <Hero />
+      <Innovation />
       <About />
+      <Features />
       <Services />
-      <Gallery />
+      <CallToAction />
+      <CaseStudies />
       <Testimonials />
       <Contact />
     </main>
