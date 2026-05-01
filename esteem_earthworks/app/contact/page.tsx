@@ -53,7 +53,7 @@ export default function ContactPage() {
                  </div>
                  <div className="space-y-1">
                    <h4 className="text-xs font-black text-zinc-400 uppercase tracking-widest">Call Us Directly</h4>
-                   <p className="text-xl font-black text-brand-black">+61 400 000 000</p>
+                   <a href="tel:0447800413" className="text-xl font-black text-brand-black hover:text-brand-orange transition-colors">0447 800 413</a>
                    <p className="text-zinc-500 text-sm">Mon - Sat: 7:00 AM - 6:00 PM</p>
                  </div>
                </div>
@@ -64,7 +64,7 @@ export default function ContactPage() {
                  </div>
                  <div className="space-y-1">
                    <h4 className="text-xs font-black text-zinc-400 uppercase tracking-widest">Email Our Desk</h4>
-                   <p className="text-xl font-black text-brand-black">estimates@esteemearth.com.au</p>
+                   <a href="mailto:manageree@icloud.com" className="text-xl font-black text-brand-black hover:text-brand-orange transition-colors">manageree@icloud.com</a>
                    <p className="text-zinc-500 text-sm">Response within 24 business hours</p>
                  </div>
                </div>
@@ -131,7 +131,7 @@ export default function ContactPage() {
                   <label className="text-[10px] font-black uppercase tracking-widest text-zinc-400">Phone Number</label>
                   <input 
                     type="tel" 
-                    placeholder="+61 000 000 000" 
+                    placeholder="0447 800 413" 
                     className="w-full bg-transparent border-b-2 border-zinc-700 text-white py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg placeholder:text-zinc-600"
                   />
                 </div>

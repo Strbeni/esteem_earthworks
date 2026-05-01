@@ -10,7 +10,8 @@ export default function Hero() {
           playsInline 
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/Earthworks.mp4" type="video/mp4" />
+          {/* <source src="/Earthworks.mp4" type="video/mp4" /> */}
+          <source src="https://res.cloudinary.com/daxynr4ep/video/upload/f_auto:video/Earthwork_cs1ae7?_s=vp" type="video/mp4" />
         </video>
         {/* Subtle dark overlay on the left focusing on the bottom for text readability */}
         <div className="absolute inset-0 bg-gradient-to-tr from-black/50 via-black/10 to-transparent"></div>

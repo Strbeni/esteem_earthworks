@@ -6,6 +6,9 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   title: "Esteem Earthworks | Precision and Reliability Defined",
   description: "Building Dreams, Creating Reality with precision and quality in construction projects.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

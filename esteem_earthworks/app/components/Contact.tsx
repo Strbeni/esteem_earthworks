@@ -7,11 +7,11 @@ export default function Contact() {
           <div className="space-y-10">
             <div>
               <h4 className="font-bold text-[11px] uppercase tracking-widest text-zinc-400 mb-2">Direct Line</h4>
-              <p className="text-2xl md:text-3xl font-black text-brand-black tracking-tight">+61 400 000 000</p>
+              <a href="tel:0447800413" className="text-2xl md:text-3xl font-black text-brand-black tracking-tight hover:text-brand-orange transition-colors">0447 800 413</a>
             </div>
             <div>
               <h4 className="font-bold text-[11px] uppercase tracking-widest text-zinc-400 mb-2">Email Desk</h4>
-              <p className="text-2xl md:text-3xl font-black text-brand-black tracking-tight">estimates@esteemearth.com.au</p>
+              <a href="mailto:manageree@icloud.com" className="text-2xl md:text-3xl font-black text-brand-black tracking-tight hover:text-brand-orange transition-colors">manageree@icloud.com</a>
             </div>
           </div>
         </div>

@@ -104,8 +104,8 @@ export default function Header() {
            
            <div className="mt-auto pb-12 space-y-4">
               <div className="text-[10px] font-bold uppercase tracking-[0.4em] text-zinc-500">Contact Us</div>
-              <div className="text-xl font-black text-brand-black">+61 400 000 000</div>
-              <a href="mailto:estimates@esteemearth.com.au" className="block text-brand-orange font-bold uppercase text-xs tracking-widest underline underline-offset-4">
+              <div className="text-xl font-black text-brand-black">0447 800 413</div>
+              <a href="mailto:manageree@icloud.com" className="block text-brand-orange font-bold uppercase text-xs tracking-widest underline underline-offset-4">
                  Get an Estimate
               </a>
            </div>

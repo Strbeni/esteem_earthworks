@@ -26,8 +26,8 @@ export default function Footer() {
         <div className="space-y-6">
           <h4 className="font-black text-[11px] uppercase tracking-[0.4em] text-brand-orange">Contact</h4>
           <div className="space-y-2">
-            <p className="text-[18px] font-black text-white">+61 400 000 000</p>
-            <p className="text-zinc-400 text-sm font-bold lowercase tracking-wider hover:text-white transition-colors">info@esteemearth.com.au</p>
+            <a href="tel:0447800413" className="block text-[18px] font-black text-white hover:text-brand-orange transition-colors">0447 800 413</a>
+            <a href="mailto:manageree@icloud.com" className="text-zinc-400 text-sm font-bold lowercase tracking-wider hover:text-white transition-colors">manageree@icloud.com</a>
           </div>
         </div>
 
