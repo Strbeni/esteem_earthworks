@@ -4,7 +4,7 @@ export default function CallToAction() {
   return (
     <section className="relative py-32 px-6 md:px-20 bg-brand-black overflow-hidden flex flex-col items-center justify-center text-center">
       <div className="absolute inset-0 z-0">
-         <img src="/construction_equipments/martin-martz-9xZDwua_etc-unsplash.jpg" alt="Background Action" className="w-full h-full object-cover opacity-20 grayscale brightness-50" />
+         <img src="/construction_equipments/martin-martz-9xZDwua_etc-unsplash.jpg" alt="Background Action" className="w-full h-full object-cover opacity-20 brightness-50" />
          <div className="absolute inset-0 bg-gradient-to-tr from-brand-orange/40 via-transparent to-black/80"></div>
       </div>
 

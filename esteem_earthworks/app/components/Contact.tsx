@@ -16,18 +16,24 @@ export default function Contact() {
           </div>
         </div>
 
-        <form className="space-y-8 bg-zinc-50 p-8 md:p-12 border border-zinc-100">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <input type="text" placeholder="First Name *" className="w-full bg-transparent py-4 border-b-2 border-zinc-200 focus:border-brand-orange focus:outline-none placeholder:text-zinc-400 text-lg font-bold transition-colors" required />
-            <input type="text" placeholder="Last Name *" className="w-full bg-transparent py-4 border-b-2 border-zinc-200 focus:border-brand-orange focus:outline-none placeholder:text-zinc-400 text-lg font-bold transition-colors" required />
-          </div>
-          <input type="tel" placeholder="Phone Number" className="w-full bg-transparent py-4 border-b-2 border-zinc-200 focus:border-brand-orange focus:outline-none placeholder:text-zinc-400 text-lg font-bold transition-colors" />
-          <input type="email" placeholder="Email *" className="w-full bg-transparent py-4 border-b-2 border-zinc-200 focus:border-brand-orange focus:outline-none placeholder:text-zinc-400 text-lg font-bold transition-colors" required />
-          <textarea placeholder="Tell us about your project" rows={4} className="w-full bg-transparent py-4 border-b-2 border-zinc-200 focus:border-brand-orange focus:outline-none placeholder:text-zinc-400 text-lg font-bold transition-colors resize-none"></textarea>
-          <button type="submit" className="w-full bg-brand-black text-white py-5 text-[14px] font-black uppercase tracking-[0.3em] hover:bg-brand-orange transition-all mt-8">
-            Submit Request
-          </button>
-        </form>
+        <div className="relative overflow-hidden group shadow-md p-8 md:p-12 bg-brand-black">
+           <div className="absolute inset-0 z-0">
+              <img src="https://www.topconpositioning.com/content/dam/topconpositioning/industry-application/heros/Earthmoving_HeroImage_web_hero.jpg" alt="Form Background" className="w-full h-full object-cover opacity-20" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/60"></div>
+           </div>
+           <form className="space-y-8 relative z-10 w-full h-full">
+             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+               <input type="text" placeholder="First Name *" className="w-full bg-transparent py-4 border-b-2 border-zinc-700 text-white focus:border-brand-orange focus:outline-none placeholder:text-zinc-600 text-lg font-bold transition-colors" required />
+               <input type="text" placeholder="Last Name *" className="w-full bg-transparent py-4 border-b-2 border-zinc-700 text-white focus:border-brand-orange focus:outline-none placeholder:text-zinc-600 text-lg font-bold transition-colors" required />
+             </div>
+             <input type="tel" placeholder="Phone Number" className="w-full bg-transparent py-4 border-b-2 border-zinc-700 text-white focus:border-brand-orange focus:outline-none placeholder:text-zinc-600 text-lg font-bold transition-colors" />
+             <input type="email" placeholder="Email *" className="w-full bg-transparent py-4 border-b-2 border-zinc-700 text-white focus:border-brand-orange focus:outline-none placeholder:text-zinc-600 text-lg font-bold transition-colors" required />
+             <textarea placeholder="Tell us about your project" rows={4} className="w-full bg-transparent py-4 border-b-2 border-zinc-700 text-white focus:border-brand-orange focus:outline-none placeholder:text-zinc-600 text-lg font-bold transition-colors resize-none"></textarea>
+             <button type="submit" className="w-full bg-brand-orange text-white py-5 text-[14px] font-black uppercase tracking-[0.3em] hover:bg-white hover:text-brand-black transition-all mt-8 border border-brand-orange hover:border-black">
+               Submit Request
+             </button>
+           </form>
+        </div>
       </div>
     </section>
   );

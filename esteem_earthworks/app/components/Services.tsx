@@ -9,7 +9,7 @@ const serviceList = [
   "CARTAGE",
   "PILING",
   "SITE LEVELING",
-  "DEMOLITION"
+  // "DEMOLITION"
 ];
 
 export default function Services() {

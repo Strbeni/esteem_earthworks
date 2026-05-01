@@ -34,7 +34,7 @@ export default function About() {
         <img 
           src="https://static.wixstatic.com/media/d2dcc1d3d4644ff581bc25eb7e6405b5.jpg" 
           alt="Technical construction perspective" 
-          className="w-full h-full object-cover grayscale-[0.1] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
+          className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
         />
         
         {/* Enhanced Pictorial Elements: Stats & Overlays */}

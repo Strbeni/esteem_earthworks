@@ -12,7 +12,7 @@ const serviceList = [
   { name: "CARTAGE", href: "/services" },
   { name: "PILING", href: "/services" },
   { name: "SITE LEVELING", href: "/services" },
-  { name: "DEMOLITION", href: "/services" }
+  // { name: "DEMOLITION", href: "/services" }
 ];
 
 export default function Header() {

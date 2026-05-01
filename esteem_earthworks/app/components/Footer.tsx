@@ -8,7 +8,7 @@ export default function Footer() {
           <img 
             src="/esteem_earthworks (1).jpeg" 
             alt="Esteem Earthworks" 
-            className="h-16 w-auto object-contain grayscale brightness-200 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-500"
+            className="h-16 w-auto object-contain brightness-200 group-hover:brightness-100 transition-all duration-500"
           />
           <p className="text-zinc-500 text-xs leading-relaxed max-w-xs uppercase tracking-widest font-bold">
             Precision and Reliability Defined. Providing civil-grade earthmoving solutions across Victoria.

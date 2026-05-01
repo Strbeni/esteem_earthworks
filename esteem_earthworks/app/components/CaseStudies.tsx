@@ -3,7 +3,7 @@ import { ExternalLink } from 'lucide-react';
 export default function CaseStudies() {
   const projects = [
     { title: "West Melbourne Hub", img: "/construction_equipments/martin-martz-9xZDwua_etc-unsplash.jpg", category: "Commercial" },
-    { title: "Precision Site Cut", img: "/construction_equipments/caspar-rae-ti4MG1kbpUk-unsplash.jpg", category: "Residential" },
+    { title: "Precision Site Cut", img: "/IMG-20260330-WA0009.jpg", category: "Residential" },
     { title: "Bulk Earthworks X", img: "/construction_equipments/jason-jarrach-QN50uuCf6UY-unsplash.jpg", category: "Civil" },
     { title: "Infrastructure Hub", img: "/construction_equipments/luke-besley-k5l-zbRSPds-unsplash.jpg", category: "Public" },
     { title: "Site Development", img: "/construction_equipments/martin-martz-9xZDwua_etc-unsplash.jpg", category: "Industrial" },
@@ -21,7 +21,7 @@ export default function CaseStudies() {
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, i) => (
               <div key={i} className="group relative aspect-[4/5] overflow-hidden bg-black shadow-2xl">
-                 <img src={project.img} alt={project.title} className="w-full h-full object-cover grayscale opacity-60 group-hover:opacity-100 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" />
+                 <img src={project.img} alt={project.title} className="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000" />
                  
                  {/* Project Info Overlay */}
                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent p-12 flex flex-col justify-end">

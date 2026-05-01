@@ -57,7 +57,7 @@ export default function AboutPage() {
               <img src="/construction_equipments/luke-besley-k5l-zbRSPds-unsplash.jpg" alt="High precision site work" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-8 -left-8 md:-bottom-12 md:-left-12 w-2/3 aspect-video bg-brand-yellow p-1 shadow-2xl hidden md:block border-4 border-white">
-               <img src="/construction_equipments/caspar-rae-ti4MG1kbpUk-unsplash.jpg" alt="Site leveling" className="w-full h-full object-cover brightness-90 transition-all duration-700" />
+               <img src="/IMG-20260330-WA0009.jpg" alt="Site leveling" className="w-full h-full object-cover brightness-90 transition-all duration-700" />
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function AboutPage() {
         <div className="max-w-[1400px] mx-auto flex flex-col items-center">
           <div className="bg-white p-10 md:p-20 shadow-2xl border-l-[12px] border-brand-orange relative overflow-hidden w-full lg:w-4/5">
             <div className="absolute top-8 right-8 w-20 h-20 opacity-10">
-              <img src="/esteem_earthworks (1).jpeg" alt="Company Seal" className="w-full h-full object-contain grayscale" />
+              <img src="/esteem_earthworks (1).jpeg" alt="Company Seal" className="w-full h-full object-contain " />
             </div>
             <div className="absolute -top-12 -right-12 w-48 h-48 bg-brand-orange/5 rounded-full"></div>
             <h2 className="text-4xl md:text-6xl font-black text-brand-black uppercase mb-8 leading-none tracking-tight">Expertise and <br/><span className="text-brand-orange">Capabilities</span></h2>
@@ -129,7 +129,7 @@ export default function AboutPage() {
            ].map((item, i) => (
              <div key={i} className="group flex flex-col">
                <div className="aspect-[3/4] overflow-hidden mb-8 border-b-8 border-brand-orange relative">
-                 <img src={item.img} className="w-full h-full object-cover grayscale brightness-75 transition-all duration-700 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-105" />
+                 <img src={item.img} className="w-full h-full object-cover brightness-75 transition-all duration-700 group-hover:brightness-100 group-hover:scale-105" />
                  <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent"></div>
                </div>
                <h3 className="text-3xl font-black uppercase mb-4 tracking-tighter">{item.title}</h3>

@@ -95,8 +95,16 @@ export default function ContactPage() {
           </div>
 
           {/* Right Side: Contact Form */}
-          <div className="lg:col-span-7 bg-zinc-50 p-8 md:p-16 border border-zinc-100 shadow-sm relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-brand-orange/5 rounded-full -mr-16 -mt-16"></div>
+          <div className="lg:col-span-7 bg-brand-black p-8 md:p-16 shadow-sm relative overflow-hidden">
+            <div className="absolute inset-0 z-0">
+              <img 
+                src="https://www.topconpositioning.com/content/dam/topconpositioning/industry-application/heros/Earthmoving_HeroImage_web_hero.jpg" 
+                className="w-full h-full object-cover opacity-20"
+                alt="Form Background"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
+            </div>
+            <div className="absolute top-0 right-0 w-32 h-32 bg-brand-orange/10 rounded-full -mr-16 -mt-16"></div>
             
             <form className="space-y-8 relative z-10">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -105,7 +113,7 @@ export default function ContactPage() {
                   <input 
                     type="text" 
                     placeholder="John Doe" 
-                    className="w-full bg-white border-b-2 border-zinc-200 py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg"
+                    className="w-full bg-transparent border-b-2 border-zinc-700 text-white py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg placeholder:text-zinc-600"
                   />
                 </div>
                 <div className="space-y-2">
@@ -113,7 +121,7 @@ export default function ContactPage() {
                   <input 
                     type="email" 
                     placeholder="john@example.com" 
-                    className="w-full bg-white border-b-2 border-zinc-200 py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg"
+                    className="w-full bg-transparent border-b-2 border-zinc-700 text-white py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg placeholder:text-zinc-600"
                   />
                 </div>
               </div>
@@ -124,16 +132,16 @@ export default function ContactPage() {
                   <input 
                     type="tel" 
                     placeholder="+61 000 000 000" 
-                    className="w-full bg-white border-b-2 border-zinc-200 py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg"
+                    className="w-full bg-transparent border-b-2 border-zinc-700 text-white py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg placeholder:text-zinc-600"
                   />
                 </div>
                 <div className="space-y-2">
                   <label className="text-[10px] font-black uppercase tracking-widest text-zinc-400">Service Required</label>
-                  <select className="w-full bg-white border-b-2 border-zinc-200 py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg appearance-none">
-                     <option>Bulk Earthworks</option>
-                     <option>Site Grading</option>
-                     <option>Demolition</option>
-                     <option>Infrastructure</option>
+                  <select className="w-full bg-transparent border-b-2 border-zinc-700 text-white py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg appearance-none">
+                     <option className="bg-brand-black text-white">Bulk Earthworks</option>
+                     <option className="bg-brand-black text-white">Site Grading</option>
+                     {/* <option className="bg-brand-black text-white">Demolition</option> */}
+                     <option className="bg-brand-black text-white">Infrastructure</option>
                   </select>
                 </div>
               </div>
@@ -143,11 +151,11 @@ export default function ContactPage() {
                 <textarea 
                   rows={4}
                   placeholder="Tell us about your project requirements..." 
-                  className="w-full bg-white border-b-2 border-zinc-200 py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg resize-none"
+                  className="w-full bg-transparent border-b-2 border-zinc-700 text-white py-4 px-0 focus:border-brand-orange focus:outline-none transition-colors font-bold text-lg resize-none placeholder:text-zinc-600"
                 ></textarea>
               </div>
 
-              <button className="w-full bg-brand-orange text-white py-6 font-black uppercase tracking-[0.3em] text-sm hover:bg-black transition-all flex items-center justify-center gap-4 group">
+              <button className="w-full bg-brand-orange text-white py-6 font-black uppercase tracking-[0.3em] text-sm hover:bg-white hover:text-brand-black transition-all flex items-center justify-center gap-4 group mt-4">
                 SUBMIT PROJECT INQUIRY
                 <Send className="w-5 h-5 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform" />
               </button>
@@ -157,7 +165,7 @@ export default function ContactPage() {
       </section>
 
       {/* Map Section Placeholder */}
-      <section className="h-[50vh] w-full bg-zinc-100 flex items-center justify-center relative overflow-hidden grayscale contrast-125">
+      <section className="h-[50vh] w-full bg-zinc-100 flex items-center justify-center relative overflow-hidden contrast-125">
          <img 
             src="/construction_equipments/karolis-vaiciulis-ZlKz2B__EZs-unsplash.jpg" 
             className="w-full h-full object-cover opacity-30" 

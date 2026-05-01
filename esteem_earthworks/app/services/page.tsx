@@ -90,7 +90,7 @@ export default function ServicesPage() {
                { title: "Earth Hauling", icon: Truck, desc: "Reliable transport and disposal of materials with our fleet of heavy-duty haulers." },
                { title: "Site Preparation", icon: HardHat, desc: "Clearing, grubbing and stabilizing the ground before any construction begins." },
                { title: "Site Development", icon: Building2, desc: "Transforming raw land into construction-ready sites for residential or commercial use." },
-               { title: "Demolition", icon: Drill, desc: "Safe and efficient removal of existing structures with complete debris management." }
+              //  { title: "Demolition", icon: Drill, desc: "Safe and efficient removal of existing structures with complete debris management." }
              ].map((service, i) => (
                <div key={i} className="bg-white p-12 border border-zinc-100 group hover:bg-brand-orange transition-all duration-500 hover:transform hover:-translate-y-2">
                  <service.icon className="w-12 h-12 text-brand-orange mb-8 group-hover:text-white transition-colors" />
@@ -112,7 +112,7 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7">
                <div className="relative group overflow-hidden">
-                 <img src="/construction_equipments/caspar-rae-ti4MG1kbpUk-unsplash.jpg" className="w-full aspect-video object-cover grayscale brightness-75 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-105" alt="Bulk Earthworks" />
+                 <img src="/IMG-20260330-WA0009.jpg" className="w-full aspect-video object-cover brightness-75 transition-all duration-1000 group-hover:brightness-100 group-hover:scale-105" alt="Bulk Earthworks" />
                  <div className="absolute top-6 left-6 bg-brand-black text-white px-4 py-1 text-[10px] font-black uppercase tracking-widest">Tier 01 // Industrial</div>
                </div>
             </div>
@@ -156,7 +156,7 @@ export default function ServicesPage() {
             </div>
             <div className="lg:col-span-7 order-1 lg:order-2">
                <div className="relative group overflow-hidden">
-                 <img src="/construction_equipments/jason-jarrach-QN50uuCf6UY-unsplash.jpg" className="w-full aspect-video object-cover grayscale brightness-75 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-105" alt="Advanced Grading" />
+                 <img src="/construction_equipments/jason-jarrach-QN50uuCf6UY-unsplash.jpg" className="w-full aspect-video object-cover brightness-75 transition-all duration-1000 group-hover:brightness-100 group-hover:scale-105" alt="Advanced Grading" />
                  <div className="absolute top-6 right-6 bg-brand-black text-white px-4 py-1 text-[10px] font-black uppercase tracking-widest">Tier 02 // Precision</div>
                </div>
             </div>

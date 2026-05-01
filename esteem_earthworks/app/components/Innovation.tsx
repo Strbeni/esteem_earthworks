@@ -26,8 +26,8 @@ export default function Innovation() {
         {/* Visual Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
            <div className="group space-y-6">
-             <div className="aspect-[4/3] overflow-hidden shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-700">
-                <img src="/construction_equipments/caspar-rae-ti4MG1kbpUk-unsplash.jpg" alt="Technological grading" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+             <div className="aspect-[4/3] overflow-hidden shadow-2xl transition-all duration-700">
+                <img src="/IMG-20260330-WA0009.jpg" alt="Technological grading" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
              </div>
              <div className="space-y-2">
                 <div className="flex items-center gap-3">
@@ -39,7 +39,7 @@ export default function Innovation() {
            </div>
 
            <div className="group space-y-6">
-             <div className="aspect-[4/3] overflow-hidden shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-700">
+             <div className="aspect-[4/3] overflow-hidden shadow-2xl transition-all duration-700">
                 <img src="/construction_equipments/jason-jarrach-QN50uuCf6UY-unsplash.jpg" alt="Heavy equipment" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
              </div>
              <div className="space-y-2">
