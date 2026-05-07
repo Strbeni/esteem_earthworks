@@ -2,7 +2,7 @@ import { ShieldCheck, HardHat, Clock, Zap, DollarSign, Award } from 'lucide-reac
 
 export default function Features() {
   const features = [
-    { title: "Low Price Range", desc: "Competitive site-cut pricing without compromising civil grade precision or site safety protocols.", icon: DollarSign },
+    // { title: "Low Price Range", desc: "Competitive site-cut pricing without compromising civil grade precision or site safety protocols.", icon: DollarSign },
     { title: "Safety Guaranteed", desc: "Full EHS compliance and OHS specialized risk management for all high-risk infrastructure projects.", icon: ShieldCheck },
     { title: "Reliability Focus", desc: "24/7 client communication and guaranteed deployment windows for tier-1 development sites.", icon: Clock },
     { title: "Precision Expert", desc: "Digital site modeling and LiDAR-integrated grading to achieving sub-centimeter site tolerances.", icon: Zap },

@@ -5,7 +5,7 @@ export default function CaseStudies() {
     { title: "West Melbourne Hub", img: "/construction_equipments/martin-martz-9xZDwua_etc-unsplash.jpg", category: "Commercial" },
     { title: "Precision Site Cut", img: "/IMG-20260330-WA0009.jpg", category: "Residential" },
     { title: "Bulk Earthworks X", img: "/construction_equipments/jason-jarrach-QN50uuCf6UY-unsplash.jpg", category: "Civil" },
-    { title: "Infrastructure Hub", img: "/construction_equipments/luke-besley-k5l-zbRSPds-unsplash.jpg", category: "Public" },
+    { title: "Infrastructure Hub", img: "/construction_equipments/excavator.png", category: "Public" },
     { title: "Site Development", img: "/construction_equipments/martin-martz-9xZDwua_etc-unsplash.jpg", category: "Industrial" },
     { title: "Complex Foundations", img: "/construction_equipments/karolis-vaiciulis-ZlKz2B__EZs-unsplash.jpg", category: "Civil Engineering" }
   ];
@@ -13,10 +13,10 @@ export default function CaseStudies() {
   return (
     <section className="py-32 px-6 md:px-20 bg-white">
       <div className="max-w-[1400px] mx-auto space-y-24">
-         <div className="text-center space-y-4">
-            <h2 className="text-[10px] font-black tracking-[0.6em] text-brand-orange uppercase">Our Work History</h2>
-            <h3 className="text-4xl md:text-6xl font-black text-brand-black tracking-tighter uppercase leading-none">Explore Our <br /> Case Studies.</h3>
-         </div>
+          <div className="text-center space-y-4">
+            <h2 className="text-[10px] font-black tracking-[0.6em] text-brand-orange uppercase">Project Archive</h2>
+            <h3 className="text-4xl md:text-6xl font-black text-brand-black tracking-tighter uppercase leading-none">Site Execution <br /> Portfolio.</h3>
+          </div>
 
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, i) => (

@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about" className="relative z-20 flex flex-col lg:flex-row bg-white overflow-hidden">
       {/* Text Content - Minimalist & Geometric */}
-      <div className="w-full lg:w-1/2 flex flex-col justify-center px-6 md:px-20 py-20 md:py-32">
+      <div className="w-full lg:w-2/5 flex flex-col justify-center px-6 md:px-16 py-20 md:py-32">
         <div className="max-w-xl">
           <div className="w-16 h-1 bg-brand-black mb-10"></div>
           <h2 className="text-5xl md:text-8xl font-black tracking-tighter text-brand-black leading-[0.9] mb-12 uppercase">
@@ -30,25 +30,25 @@ export default function About() {
       </div>
 
       {/* Pictorial Content - High Impact Vertical Visual */}
-      <div className="w-full lg:w-1/2 h-[50vh] lg:h-screen relative group overflow-hidden">
+      <div className="w-full lg:w-3/5 h-[50vh] lg:h-screen relative group overflow-hidden">
         <img 
-          src="https://static.wixstatic.com/media/d2dcc1d3d4644ff581bc25eb7e6405b5.jpg" 
+          src="/about.png" 
           alt="Technical construction perspective" 
           className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
         />
         
-        {/* Enhanced Pictorial Elements: Stats & Overlays */}
+        {/* Creative Trust Overlays */}
         <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500"></div>
         
         <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12 text-right text-white drop-shadow-xl">
-          <div className="font-mono-custom text-4xl md:text-[60px] font-black leading-none">25+</div>
-          <div className="font-mono-custom text-[10px] md:text-[12px] uppercase tracking-[0.3em] font-bold">Years of Excellence</div>
+          <div className="font-mono-custom text-4xl md:text-[60px] font-black leading-none uppercase">Expertise</div>
+          <div className="font-mono-custom text-[10px] md:text-[12px] uppercase tracking-[0.3em] font-bold">Site Craftsmanship</div>
         </div>
 
         <div className="absolute top-8 left-8 md:top-12 md:left-12">
           <div className="w-16 md:w-24 h-[1px] bg-white/50 mb-4"></div>
           <div className="font-mono-custom text-[10px] text-white/70 uppercase tracking-widest">
-            Site Reference: EST-2024-X
+            Committed to Quality
           </div>
         </div>
       </div>

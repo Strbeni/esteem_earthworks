@@ -42,8 +42,8 @@ export default function ServicesPage() {
               />
             </div>
             <div className="absolute -bottom-10 -right-10 bg-brand-yellow p-10 hidden xl:block shadow-2xl">
-               <div className="text-4xl font-black text-brand-black tracking-tighter">30+ Years</div>
-               <div className="text-[10px] font-bold uppercase tracking-widest text-zinc-700">Engineering Excellence</div>
+               <div className="text-4xl font-black text-brand-black tracking-tighter">100+</div>
+               <div className="text-[10px] font-bold uppercase tracking-widest text-zinc-700">Projects Completed</div>
             </div>
           </div>
           
@@ -192,12 +192,12 @@ export default function ServicesPage() {
               </div>
             ))}
           </div>
-          
+{/*           
           <div className="mt-24 text-center">
             <a href="/projects" className="bg-brand-orange text-white px-12 py-5 font-black uppercase tracking-widest text-xs hover:bg-white hover:text-brand-black transition-all shadow-2xl inline-block">
               VIEW FLEET CATALOGUE
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -226,7 +226,7 @@ export default function ServicesPage() {
             </div>
             <div className="pt-4">
               <button className="text-brand-orange font-black uppercase text-sm flex items-center gap-4 group">
-                CONTACT US FOR SITE VISIT
+                <a href="/contact">CONTACT US FOR SITE VISIT</a>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-3 transition-transform" />
               </button>
             </div>

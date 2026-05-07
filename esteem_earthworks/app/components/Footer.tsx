@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -6,13 +7,35 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-20">
         <div className="col-span-1 space-y-8 group">
           <img 
-            src="/esteem_earthworks (1).jpeg" 
+            src="/esteem_Earthworks.png" 
             alt="Esteem Earthworks" 
-            className="h-16 w-auto object-contain brightness-200 group-hover:brightness-100 transition-all duration-500"
+            className="h-16 w-auto bg-white rounded-full object-contain brightness-200 group-hover:brightness-100 transition-all duration-500"
           />
-          <p className="text-zinc-500 text-xs leading-relaxed max-w-xs uppercase tracking-widest font-bold">
-            Precision and Reliability Defined. Providing civil-grade earthmoving solutions across Victoria.
-          </p>
+          <div className="space-y-6">
+            <p className="text-zinc-500 text-xs leading-relaxed max-w-xs uppercase tracking-widest font-bold">
+              Precision and Reliability Defined. Providing civil-grade earthmoving solutions across Victoria.
+            </p>
+            <div className="flex gap-4">
+              <a 
+                href="https://www.instagram.com/esteemearthworks/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-zinc-800 flex items-center justify-center text-zinc-500 hover:text-brand-orange hover:border-brand-orange hover:bg-zinc-800/50 transition-all duration-300"
+                aria-label="Instagram"
+              >
+                <Instagram size={18} />
+              </a>
+              <a 
+                href="https://www.facebook.com/people/Esteem-Earthworks/61575955510780/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-zinc-800 flex items-center justify-center text-zinc-500 hover:text-brand-orange hover:border-brand-orange hover:bg-zinc-800/50 transition-all duration-300"
+                aria-label="Facebook"
+              >
+                <Facebook size={18} />
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="space-y-6">
@@ -54,3 +77,4 @@ export default function Footer() {
     </footer>
   );
 }
+
